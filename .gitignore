@@ -30,3 +30,7 @@ $RECYCLE.BIN/
 
 # Husky
 .husky
+
+# ELTOROIT ignores…
+src/SLDS/*
+dist/SLDS/*
