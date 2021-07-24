@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Study_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Study Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finished</fullName>
+                <default>false</default>
+                <label>Finished</label>
+            </value>
+            <value>
+                <fullName>In Course</fullName>
+                <default>false</default>
+                <label>In Course</label>
+            </value>
+            <value>
+                <fullName>Not Finished</fullName>
+                <default>false</default>
+                <label>Not Finished</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
