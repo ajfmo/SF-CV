@@ -29,6 +29,35 @@
 			"command": "sh",
 			"args": ["${workspaceFolder}/util/ScratchOrgCreator.sh"],
 			"problemMatcher": []
+		},
+		{
+			"label": "4.- Create .env file",
+			"type": "shell",
+			"group": "build",
+			"command": "printf",
+			"args": [
+				"\"SF_LOGIN_URL=https://login.salesforce.com\nSF_USERNAME=${input:SF_USERNAME}\nSF_PASSWORD=${input:SF_PASSWORD}\nSF_TOKEN=${input:SF_TOKEN}\"",
+				">>",
+				".env"
+			],
+			"problemMatcher": []
+		}
+	],
+	"inputs": [
+		{
+			"id": "SF_USERNAME",
+			"type": "promptString",
+			"description": "Scratch Org username"
+		},
+		{
+			"id": "SF_PASSWORD",
+			"type": "promptString",
+			"description": "User password"
+		},
+		{
+			"id": "SF_TOKEN",
+			"type": "promptString",
+			"description": "User security token"
 		}
 	]
 }
