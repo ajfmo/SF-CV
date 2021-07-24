@@ -28,8 +28,8 @@ const HOST = process.env.API_HOST || 'localhost';
 const PORT = process.env.API_PORT || 3002;
 
 app.get('/api/candidates', (req, res) => {
-	var candidate_email = req.query.email;
-	console.log('Candidate email: ' + candidate_email);
+	// var candidate_email = req.query.email;
+	// console.log('Candidate email: ' + candidate_email);
 	const soql = `
     SELECT 
     Id, Name, Email, Title, Resume_Summary__c, College_University__c, Career__c, Study_Start_Date__c, Study_End_Date__c, Study_Status__c, Languages__c, 
@@ -37,8 +37,8 @@ app.get('/api/candidates', (req, res) => {
     (SELECT Id, Certification__r.Name, Certification__r.Awarded_Date__c FROM Candidate_Certifications__r), 
     (SELECT Id, Employer__c, Start_Date__c, End_Date__c, Title__c, Location__c, Main_Duties__c, Achievements__c FROM Professional_Experiences__r) 
     FROM Contact 
-	WHERE Email = '` + candidate_email + `'`;
-	// WHERE Email = 'aj.fm@hotmail.com'`;
+	WHERE Email = 'aj.fm@hotmail.com'`;
+	// WHERE Email = '` + candidate_email + `'`;
 	conn.query(soql, (err, result) => {
 		if (err) {
 			res.sendStatus(500);
@@ -102,21 +102,9 @@ app.get('/api/candidates', (req, res) => {
 					professionalExperiences
 				};
 			});
-			// res.send({ data: formattedData });
-			res.send({ data: formattedData, 'candidate_email': candidate_email });
+			res.send({ data: formattedData });
+			// res.send({ data: formattedData, 'candidate_email': candidate_email });
 		}
-	});
-});
-
-app.get('/api/users', function (req, res) {
-	const user_id = req.query.id;
-	const token = req.query.token;
-	const geo = req.query.geo;
-
-	res.send({
-		'user_id': user_id,
-		'token': token,
-		'geo': geo
 	});
 });
 
