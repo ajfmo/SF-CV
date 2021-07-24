@@ -37,7 +37,7 @@ app.get('/api/candidates', (req, res) => {
     (SELECT Id, Certification__r.Name, Certification__r.Awarded_Date__c FROM Candidate_Certifications__r), 
     (SELECT Id, Employer__c, Start_Date__c, End_Date__c, Title__c, Location__c, Main_Duties__c, Achievements__c FROM Professional_Experiences__r) 
     FROM Contact 
-	WHERE Email = 'aj.fm@hotmail.com'`;
+	WHERE Email = 'myemail@email.com'`;
 	// WHERE Email = '` + candidate_email + `'`;
 	conn.query(soql, (err, result) => {
 		if (err) {
