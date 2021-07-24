@@ -1,0 +1,12 @@
+<template>
+	<template if:true={candidate}>
+		<!-- <h2><a href="#" onclick={handleSessionsClick}>Candidates</a> &gt; {candidate.name}</h2> -->
+		<h2>{candidate.name}</h2>
+		<p class="icon time">{candidate.title}</p>
+		<lightning-formatted-rich-text class="icon room" value={candidate.email}></lightning-formatted-rich-text>
+		<p class="icon room">{candidate.career}</p>
+		<p class="icon room">{candidate.college_university}</p>
+		<p>Summary</p>
+		<lightning-formatted-rich-text value={candidate.resume_summary}></lightning-formatted-rich-text>
+	</template>
+</template>

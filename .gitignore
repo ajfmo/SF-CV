@@ -30,3 +30,14 @@ $RECYCLE.BIN/
 
 # Husky
 .husky
+
+# ELTOROIT ignores…
+src/SLDS/*
+dist/SLDS/*
+
+# Salesforce cache
+.sfdx/
+.localdevserver/
+
+# Secrets
+.env

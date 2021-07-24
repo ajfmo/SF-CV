@@ -1,0 +1,177 @@
+{
+	"fetched": 19,
+	"records": [
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKthAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKthAAG",
+			"Skill__c": "a024x000005TJCDAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKu6AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKu6AAG",
+			"Skill__c": "a024x000005TJCdAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKu7AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKu7AAG",
+			"Skill__c": "a024x000005TJCTAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKu8AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKu8AAG",
+			"Skill__c": "a024x000005TJCcAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtcAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtcAAG",
+			"Skill__c": "a024x000005TJByAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtdAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtdAAG",
+			"Skill__c": "a024x000005TJBaAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKteAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKteAAG",
+			"Skill__c": "a024x000005TJBcAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtfAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtfAAG",
+			"Skill__c": "a024x000005TJBbAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtgAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtgAAG",
+			"Skill__c": "a024x000005TJCSAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKu1AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKu1AAG",
+			"Skill__c": "a024x000005TJCQAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKu2AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKu2AAG",
+			"Skill__c": "a024x000005TJCRAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtmAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtmAAG",
+			"Skill__c": "a024x000005TJBzAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtnAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtnAAG",
+			"Skill__c": "a024x000005TJCPAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtoAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtoAAG",
+			"Skill__c": "a024x000005TJCUAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtwAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtwAAG",
+			"Skill__c": "a024x000005TJC0AAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtxAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtxAAG",
+			"Skill__c": "a024x000005TJC1AAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtrAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtrAAG",
+			"Skill__c": "a024x000005TJBbAAO"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKtsAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKtsAAG",
+			"Skill__c": "a024x000005TJCNAA4"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Skill__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Skill__c/a054x000004VKttAAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Id": "a054x000004VKttAAG",
+			"Skill__c": "a024x000005TJBfAAO"
+		}
+	],
+	"total": 19
+}

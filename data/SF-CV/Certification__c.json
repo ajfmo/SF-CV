@@ -1,0 +1,22 @@
+{
+	"fetched": 2,
+	"records": [
+		{
+			"attributes": {
+				"type": "Certification__c",
+				"url": "/services/data/v52.0/sobjects/Certification__c/a034x000008dARYAA2"
+			},
+			"Id": "a034x000008dARYAA2",
+			"Name": "Salesforce Certified Administrator"
+		},
+		{
+			"attributes": {
+				"type": "Certification__c",
+				"url": "/services/data/v52.0/sobjects/Certification__c/a034x000008dARZAA2"
+			},
+			"Id": "a034x000008dARZAA2",
+			"Name": "Salesforce Certified Platform Developer I"
+		}
+	],
+	"total": 2
+}

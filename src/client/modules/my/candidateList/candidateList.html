@@ -1,0 +1,43 @@
+<template>
+	<div class="list">
+		<div class="slds-size_1-of-3">
+			<lightning-input
+				type="search"
+				label="Search candidates by their job title..."
+				name="enter-search"
+				oninput={handleSearchKeyInput}
+			></lightning-input>
+		</div>
+		<template for:each={candidates} for:item="candidate" for:index="index">
+			<a key={candidate.id} class="candidate" data-index={index} onclick={handleSessionClick}>
+				<div class="slds-size_1-of-7 slds-p-bottom_xx-large">
+					<p class="title">{candidate.name}</p>
+					<p>
+						<lightning-icon
+							class="slds-var-m-right_small"
+							icon-name="standard:job_position"
+							alternative-text="Job Position"
+							title="Job Position"
+							size="x-small"
+						></lightning-icon>
+						{candidate.title}
+					</p>
+					<lightning-icon
+						class="slds-var-m-right_small"
+						icon-name="standard:email_chatter"
+						alternative-text="Job Position"
+						title="Job Position"
+						size="x-small"
+					></lightning-icon>
+					<lightning-formatted-rich-text value={candidate.email}></lightning-formatted-rich-text>
+				</div>
+				<div class="slds-size_6-of-7">
+					<div class="slds-text-heading_medium">Summary</div>
+					<div>
+						<lightning-formatted-rich-text value={candidate.resume_summary}></lightning-formatted-rich-text>
+					</div>
+				</div>
+			</a>
+		</template>
+	</div>
+</template>

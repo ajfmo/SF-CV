@@ -1,0 +1,24 @@
+{
+	"fetched": 2,
+	"records": [
+		{
+			"attributes": {
+				"type": "Candidate_Certification__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Certification__c/a064x000005TKk7AAG"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Certification__c": "a034x000008dARYAA2",
+			"Id": "a064x000005TKk7AAG"
+		},
+		{
+			"attributes": {
+				"type": "Candidate_Certification__c",
+				"url": "/services/data/v52.0/sobjects/Candidate_Certification__c/a064x000005TKkCAAW"
+			},
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Certification__c": "a034x000008dARZAA2",
+			"Id": "a064x000005TKkCAAW"
+		}
+	],
+	"total": 2
+}

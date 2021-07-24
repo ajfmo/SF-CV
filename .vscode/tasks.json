@@ -1,0 +1,63 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "1.- Install Project Dependencies",
+			"detail": "Install package.json dependencies.",
+			"type": "shell",
+			"group": "build",
+			"command": "npm",
+			"args": ["install"],
+			"problemMatcher": []
+		},
+		{
+			"label": "2.- Install ETCopyData plugin",
+			"detail": "SFDX Plugin to populate your scratch org and/or developer sandbox with data extracted from multiple sObjects.",
+			"type": "shell",
+			"group": "build",
+			"command": "sfdx",
+			"args": ["plugins:install", "etcopydata"],
+			"problemMatcher": []
+		},
+		{
+			"label": "3.- Create Sracth Org",
+			"detail": "Create, Initiatilize and Set up Scratch Org",
+			"type": "shell",
+			"group": "build",
+			"command": "sh",
+			"args": ["${workspaceFolder}/util/ScratchOrgCreator.sh"],
+			"problemMatcher": []
+		},
+		{
+			"label": "4.- Create .env file",
+			"type": "shell",
+			"group": "build",
+			"command": "printf",
+			"args": [
+				"\"SF_LOGIN_URL=https://login.salesforce.com\nSF_USERNAME=${input:SF_USERNAME}\nSF_PASSWORD=${input:SF_PASSWORD}\nSF_TOKEN=${input:SF_TOKEN}\"",
+				">>",
+				".env"
+			],
+			"problemMatcher": []
+		}
+	],
+	"inputs": [
+		{
+			"id": "SF_USERNAME",
+			"type": "promptString",
+			"description": "Scratch Org username"
+		},
+		{
+			"id": "SF_PASSWORD",
+			"type": "promptString",
+			"description": "User password"
+		},
+		{
+			"id": "SF_TOKEN",
+			"type": "promptString",
+			"description": "User security token"
+		}
+	]
+}
