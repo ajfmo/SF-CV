@@ -34,3 +34,7 @@ $RECYCLE.BIN/
 # ELTOROIT ignores…
 src/SLDS/*
 dist/SLDS/*
+
+# Salesforce cache
+.sfdx/
+.localdevserver/
