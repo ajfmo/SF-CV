@@ -4,11 +4,6 @@
 		<h2>Candidate</h2>
 	</header>
 	<main class="content">
-		<template if:true={isStateList}>
-			<my-candidate-list onnavigate={handleNavigate}></my-candidate-list>
-		</template>
-		<template if:true={isStateDetails}>
-			<my-candidate-details onnavigate={handleNavigate} candidate-id={candidateId}></my-candidate-details>
-		</template>
+		<my-candidate-details onnavigate={handleNavigate} candidate-id={candidateId}></my-candidate-details>
 	</main>
 </template>
