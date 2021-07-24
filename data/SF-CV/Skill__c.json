@@ -1,0 +1,166 @@
+{
+	"fetched": 20,
+	"records": [
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJBaAAO"
+			},
+			"Id": "a024x000005TJBaAAO",
+			"Name": "Salesforce DX and VSCode"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJBbAAO"
+			},
+			"Id": "a024x000005TJBbAAO",
+			"Name": "Mass Data Import using Dataloader, Jitterbit"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJBcAAO"
+			},
+			"Id": "a024x000005TJBcAAO",
+			"Name": "REST / SOAP API unidirectional or bidirectional Web Services"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCNAA4"
+			},
+			"Id": "a024x000005TJCNAA4",
+			"Name": "Security enforcement and Governor Limits prevention"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCOAA4"
+			},
+			"Id": "a024x000005TJCOAA4",
+			"Name": "VisualStudio 2019"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCPAA4"
+			},
+			"Id": "a024x000005TJCPAA4",
+			"Name": "GitHub"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCQAA4"
+			},
+			"Id": "a024x000005TJCQAA4",
+			"Name": "MS SQL Server"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCRAA4"
+			},
+			"Id": "a024x000005TJCRAA4",
+			"Name": "SSRS"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCSAA4"
+			},
+			"Id": "a024x000005TJCSAA4",
+			"Name": "C# (C Sharp)"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCTAA4"
+			},
+			"Id": "a024x000005TJCTAA4",
+			"Name": "SSIS"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCUAA4"
+			},
+			"Id": "a024x000005TJCUAA4",
+			"Name": "Design Patterns: MVC, Singleton, Decorator, Strategy"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCcAAO"
+			},
+			"Id": "a024x000005TJCcAAO",
+			"Name": "Amazon Web Services"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCdAAO"
+			},
+			"Id": "a024x000005TJCdAAO",
+			"Name": "MySQL"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJCDAA4"
+			},
+			"Id": "a024x000005TJCDAA4",
+			"Name": "Asynchronoys Apex"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJByAAO"
+			},
+			"Id": "a024x000005TJByAAO",
+			"Name": "Apex Classes and Triggers"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJBzAAO"
+			},
+			"Id": "a024x000005TJBzAAO",
+			"Name": "LWC, Aura Components y, Visualforce Pages"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJC0AAO"
+			},
+			"Id": "a024x000005TJC0AAO",
+			"Name": "Declarative Solutions (automain, config and set up)"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJC1AAO"
+			},
+			"Id": "a024x000005TJC1AAO",
+			"Name": "Migration and data deployment (Workbench, Ant, Packages 1G and 2G)"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJC2AAO"
+			},
+			"Id": "a024x000005TJC2AAO",
+			"Name": "SOQL and SOSL"
+		},
+		{
+			"attributes": {
+				"type": "Skill__c",
+				"url": "/services/data/v52.0/sobjects/Skill__c/a024x000005TJBfAAO"
+			},
+			"Id": "a024x000005TJBfAAO",
+			"Name": "Java"
+		}
+	],
+	"total": 20
+}

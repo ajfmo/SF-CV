@@ -1,0 +1,79 @@
+{
+    "now": "2021-07-24T21:29:04.437Z",
+    "orgSource": "SF-CV",
+    "orgDestination": "sfcv_SO",
+    "sObjectsData": [
+        {
+            "name": "Account",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Contact",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Skill__c",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Candidate_Skill__c",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Certification__c",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Candidate_Certification__c",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Professional_Experience__c",
+            "externalIdField": null,
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        }
+    ],
+    "sObjectsMetadata": [],
+    "rootFolder": "./data",
+    "includeAllCustom": true,
+    "stopOnErrors": true,
+    "ignoreFields": null,
+    "twoPassReferenceFields": null,
+    "maxRecordsEach": -1,
+    "deleteDestination": false,
+    "pollingTimeout": 100000
+}

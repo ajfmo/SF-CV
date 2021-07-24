@@ -1,0 +1,51 @@
+{
+	"fetched": 3,
+	"records": [
+		{
+			"attributes": {
+				"type": "Professional_Experience__c",
+				"url": "/services/data/v52.0/sobjects/Professional_Experience__c/a044x000004Zp3tAAC"
+			},
+			"Achievements__c": "<p>I created a data synchronization system between a SQL Server and Salesforce using SSIS (SQL Server Integration Services), exposing Integration Services through a Web Service made in C #, consumed by Salesforce on-demand. Develop multiple screen flow components to take full advantage of flows, segments to fulfill specific tasks for each client, improving the UX and adding scalability to flows, develop registration pages and expose through Communities and Sites. Development in Salesforce DX and Visual Studio Code.</p>",
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Employer__c": "ImagineCRM",
+			"End_Date__c": null,
+			"Id": "a044x000004Zp3tAAC",
+			"Location__c": "United States (remote)",
+			"Main_Duties__c": "<p>Apex class and trigger development, Lightning components, platform management. Automation development using declarative tools (clicks, not code!).</p>",
+			"Start_Date__c": "2019-03-18",
+			"Title__c": "Salesforce Developer"
+		},
+		{
+			"attributes": {
+				"type": "Professional_Experience__c",
+				"url": "/services/data/v52.0/sobjects/Professional_Experience__c/a044x000004Zp3uAAC"
+			},
+			"Achievements__c": "<p>I set the necessary milestones for the development of the proposed system. I built the structure of the project and its database. Develop the code and implement state-of-the-art methodologies and tools (MVC Design, Maven, Bitbucket, Spring Boot, Hibernate, JavaFX, and Scrum).</p>",
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Employer__c": "Nubeclick S.A.",
+			"End_Date__c": "2018-07-07",
+			"Id": "a044x000004Zp3uAAC",
+			"Location__c": "Mexico (Remote)",
+			"Main_Duties__c": "<p>Requirement analysis, design, and development of an ERP-POS system.</p>",
+			"Start_Date__c": "2018-02-25",
+			"Title__c": "Java Developer"
+		},
+		{
+			"attributes": {
+				"type": "Professional_Experience__c",
+				"url": "/services/data/v52.0/sobjects/Professional_Experience__c/a044x000004Zp3yAAC"
+			},
+			"Achievements__c": "<p>Integrated many applications using Web Services, built an integration with SUMO Scheduler for Salesforce, Twilio SMS messages. Built automation using triggers, batches, workflows, validation rules, and many other configurations.</p><p>Successfully ran mass data import in an active Org without affecting the work process of the client.</p><p>I have refactored code in VFP, controllers, Test classes, Mapping inactive integrations (Shopify, NetSuite).</p><p>Salesforce&#39;s Communities Creation, configuration, and administration.</p>",
+			"Candidate__c": "0034x00000cYv11AAC",
+			"Employer__c": "SertPro360 S.R.L.",
+			"End_Date__c": "2019-02-03",
+			"Id": "a044x000004Zp3yAAC",
+			"Location__c": "Peru (local)",
+			"Main_Duties__c": "<p>I developed Triggers and classes development, configuration and customizations, automation, reports, dashboards, data import, varied integrations.</p>",
+			"Start_Date__c": "2018-09-05",
+			"Title__c": "Salesforce Developer"
+		}
+	],
+	"total": 3
+}
