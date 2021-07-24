@@ -38,3 +38,6 @@ dist/SLDS/*
 # Salesforce cache
 .sfdx/
 .localdevserver/
+
+# Secrets
+.env
