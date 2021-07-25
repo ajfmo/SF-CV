@@ -33,7 +33,7 @@ app.get('/api/candidates', (req, res) => {
 	const soql = `
     SELECT 
     Id, Name, Email, Title, Resume_Summary__c, College_University__c, Career__c, Study_Start_Date__c, Study_End_Date__c, Study_Status__c, Languages__c, 
-    (SELECT Id, Skill__r.Id, Skill__r.General_Skill__c, Skill__r.Name FROM Candidate_Skills__r), 
+    (SELECT Id, Skill__r.Id, Skill__r.Name FROM Candidate_Skills__r), 
     (SELECT Id, Certification__r.Name, Certification__r.Awarded_Date__c FROM Candidate_Certifications__r), 
     (SELECT Id, Employer__c, Start_Date__c, End_Date__c, Title__c, Location__c, Main_Duties__c, Achievements__c FROM Professional_Experiences__r) 
     FROM Contact 
