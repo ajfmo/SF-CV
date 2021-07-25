@@ -28,7 +28,7 @@ const HOST = process.env.API_HOST || 'localhost';
 const PORT = process.env.API_PORT || 3002;
 
 app.get('/api/candidates', (req, res) => {
-	// var candidate_email = req.query.email;
+    let candidate_email = req.query.email;
 	// console.log('Candidate email: ' + candidate_email);
 	const soql = `
     SELECT 
@@ -37,8 +37,7 @@ app.get('/api/candidates', (req, res) => {
     (SELECT Id, Certification__r.Name, Certification__r.Awarded_Date__c FROM Candidate_Certifications__r), 
     (SELECT Id, Employer__c, Start_Date__c, End_Date__c, Title__c, Location__c, Main_Duties__c, Achievements__c FROM Professional_Experiences__r) 
     FROM Contact 
-	WHERE Email = 'myemail@email.com'`;
-	// WHERE Email = '` + candidate_email + `'`;
+    WHERE Email = '${candidate_email}'`;
 	conn.query(soql, (err, result) => {
 		if (err) {
 			res.sendStatus(500);
