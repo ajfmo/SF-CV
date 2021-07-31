@@ -52,8 +52,7 @@ app.get('/api/candidates', (req, res) => {
 					skills = candidateRecord.Candidate_Skills__r.records.map((record) => {
 						return {
 							id: record.Skill__r.Id,
-							name: record.Skill__r.Name,
-							general_skill: record.Skill__r.General_Skill__c
+							name: record.Skill__r.Name
 						};
 					});
 				}
