@@ -22,7 +22,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "3.- Create Sracth Org",
+			"label": "3.- Create Sracth Org (Auth a DevHub first)",
 			"detail": "Create, Initiatilize and Set up Scratch Org",
 			"type": "shell",
 			"group": "build",
